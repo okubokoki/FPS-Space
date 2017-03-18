@@ -157,7 +157,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             if (Input.GetKey(KeyCode.C))
             {
-                m_IsWalking = false;
                 Vector3 pos = Player.transform.position;
                 pos.y = 5;
                 Player.transform.position = pos;
